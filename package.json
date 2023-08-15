@@ -1,0 +1,28 @@
+{
+  "name": "@drhex/prime-x",
+  "version": "1.0.3",
+  "description": "A package to compute and check for prime numbers within a specified range.",
+  "main": "./src/prime.js",
+  "scripts": {
+    "test": "node ./src/test.js"
+  },
+  "keywords": [
+    "prime",
+    "numbers",
+    "algorithm",
+    "math"
+  ],
+  "author": "Only1drhex",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/only1drhex/prime-x"
+  },
+  "bugs": {
+    "url": "https://github.com/only1drhex/prime-x/issues"
+  },
+  "homepage": "https://github.com/only1drhex/prime-x#readme",
+  "dependencies": {
+    "@drhex/prime-x": "^1.0.3"
+  }
+}
