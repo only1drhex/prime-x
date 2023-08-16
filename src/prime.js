@@ -27,14 +27,16 @@ function checkPrime(num) {
 
 function computePrime(lower, upper) {
   const primeNumbers = [];
-  if (!lower || lower === "undefined") lower = 0;
-  if(!upper) return false;
+  if (lower === undefined) lower = 0;
+  if(!upper) return [];
   for (let i = lower; i <= upper; i++) {
-    if (primeNumbers.length >= 1) {
+/* 
+/* Unecessary
+if (primeNumbers.length >= 1) {
       const lastIndex = primeNumbers.length - 1;
       const lastNum = primeNumbers[lastIndex];
-      if (lastNum >= upper && checkPrime(upper)) return primeNumbers;
-    }
+      if (lastNum == upper) return primeNumbers;
+    }*/
     if (checkPrime(i)) primeNumbers.push(i);
   }
   return primeNumbers;
