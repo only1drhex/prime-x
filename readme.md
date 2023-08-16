@@ -31,8 +31,3 @@ const number = 97;
 const isPrime = prime.checkPrime(number); //returns true
 console.log("The number is a prime number:", isPrime);
 ```
-
-## License
-
-This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
